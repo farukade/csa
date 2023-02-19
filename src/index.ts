@@ -12,7 +12,6 @@ const dbUrl = process.env.DB_CONNECTION_STRING;
 dbConnection(dbUrl || "");
 
 
-
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
