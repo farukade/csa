@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import { UserModel } from '../models/schedule.model';
 import { User } from '../models/user.model';
 import { IUser } from '../types/user.interface';
 import { constants } from './constants';
